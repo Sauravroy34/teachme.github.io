@@ -26,6 +26,25 @@ dimesions is the number of vairable in a function mathematically it is number of
 # vectors 
 
 since we know what is a function lets talk about visulazing a function to visulise a function we have few methods but the we use function to genralise some event for example we use function force = ma makes our life easier for calculating force (there is a reason why its called formula)most used method is called "graph" graph is displaying the relationship between the dependent and independent variable
-if i have a function f(x) = x + 2
+if i have a function f(x) = x + 2 graph would look like a straight line this line shows that the linear relationship between input and output.vector is one another way of representing points in catersian form(normal graph one) if a point (a,b) was to be expressed in vector form it would be a(i) + b(j) a and be would be the distance of the point from the respective axes in a nutshell vector is something which has magnitude and direction(here the direction would from the origin to the point) and the magnitude is the length of the vector(distance from origin)
 
-just like we said 
+number of numbers in a vector repsents its dimension
+in computer science vectors are a fancy word for a list of 1d numbers
+
+# operation on vectors
+
+we can add vectors and subtract vector both happen element wise which result in a new vector which is just a linear combination of vectors 
+
+multiplication of vector are of two first the dot product(multiply each element and just add it up) it has some geometrical meaning in physics and differnt meaning in computeer science(it is used as a proxy for when we required to multply to array elementwise and just sum it up like weights in neural network) 
+
+vector multiplication or cross product is tool used to give a vector perpendicular to original one 
+
+#basis of a space 
+
+think of basis as some sort of language system if want ice cream in english i would say "give that ice cream over there" in hindi it would be "mujhae ice cream dae do" we mean the same thing but our way of expressing it is very differnt same goes to basis of a space (a higher dimension) in short basis of system can be set linearly inependent set of vectors because these in their set no vectors can be made by combinnig other vectors linearly  
+
+# matrix 
+matricess are orderd things in rows colowns you can matrix of numbers a matrix of things (a good example of this defination would be like sitting arrangement of class room ) each element of a matrices has its own address (m th row n th colown)                                         
+
+
+
