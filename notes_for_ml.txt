@@ -1,0 +1,1 @@
+deep learning - for deep learning we need to understand what is preceptron the first neuron perceptron are nodes which fire(their values become 1) or not(their values becomes 0) they take in input give each input some scaler weights (w) and each node a bias (minimum value required for activation) weight assigned to each input are given based on their relevance 
