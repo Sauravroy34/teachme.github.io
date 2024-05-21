@@ -1,1 +1,15 @@
-deep learning - for deep learning we need to understand what is preceptron the first neuron perceptron are nodes which fire(their values become 1) or not(their values becomes 0) they take in input give each input some scaler weights (w) and each node a bias (minimum value required for activation) weight assigned to each input are given based on their relevance 
+deep learning - for deep learning we need to understand what is preceptron the first neuron perceptron are nodes which fire(their values become 1) or not(their values becomes 0) they take in input give each input some scaler weights (w) and each node a bias (minimum value required for activation) weight assigned to each input are given based on their relevance for the output this is the simple preceptron
+the shortcoming they have that can produce value of 0 and 1 only these might make them ideal for logical function but for and complex classification they are not suitable 
+
+<br>
+
+And to overcome these shortcomings we have sigmoid neuron which have almost same working as perceptron but instead of just turning 1 or 0 we input these parameters into sigmoid function which results in value between 0 to 1(continious value rather than discrete) thus makes it suitable for various classfication tasks 
+
+<br>
+
+Now the parameters each neuron takes is weights and each neuron has its own bias (some constant value which might be helpfull for neurons value) and these linear combination of weights and biases are then fed into some activation function which squisses each of the value between 0 to 1 (for sigmoid) ,-1,1(tanh),0,x(relu) and each weights and biases gets configured in a way that they minimise the loss (output network produces - actual output) and how do these weights and biases get adjusted happens through backpropagation (which is just a simple chain rule method) 
+
+<br>
+Backpropagation : Backpropagation is just simple chain rule where change each value of weights and biases based on learing rate w(new) = w(old) -leariningrate(change in loss function caused some change in neuron) now how do we find these change ? simple chain rule think of chain a gear which is connected to another which connected to another if i spin one gear it induces some spin on its adjacent which in turn to its adjacent now the question how much spin did i induce to the third gear due to first one? it will change on second due to first muliplied by change on third due to second this is the genral intution of chain rule 
+<br>
+Now question what is gradient descent 
